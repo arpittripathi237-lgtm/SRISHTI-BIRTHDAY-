@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#120812">
+<title>For Srishti — 7 September ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#0d070d;color:#fff1f6;font-family:'Montserrat',sans-serif;overflow-x:hidden}
+body.lock{overflow:hidden}.bg{position:fixed;inset:0;z-index:-3;background:radial-gradient(circle at 20% 20%,#5c183f 0,transparent 32%),radial-gradient(circle at 80% 70%,#35134c 0,transparent 35%),linear-gradient(145deg,#0c060d,#190b18 55%,#09050b)}
+#stars{position:fixed;inset:0;z-index:-2;pointer-events:none}.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.6;animation:twinkle 3s infinite alternate}
+@keyframes twinkle{to{opacity:.15;transform:scale(.4)}}.heart{position:fixed;z-index:1;pointer-events:none;font-size:18px;animation:rise 7s linear forwards}
+@keyframes rise{from{transform:translateY(105vh) scale(.7) rotate(0);opacity:0}15%{opacity:.8}to{transform:translateY(-15vh) scale(1.2) rotate(25deg);opacity:0}}
+#intro{position:fixed;inset:0;z-index:50;display:grid;place-items:center;text-align:center;padding:24px;background:radial-gradient(circle at center,#35132a,#0a050b 70%);transition:opacity 1s,visibility 1s}
+#intro.hide{opacity:0;visibility:hidden;pointer-events:none}.intro-inner{width:min(680px,100%)}.eyebrow{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#e8a8c5}
+#count{font-family:'Cormorant Garamond',serif;font-size:clamp(80px,22vw,170px);line-height:.8;margin:28px 0;color:#fff}
+#countLabel{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#d9b3c6}
+.type{font-family:'Cormorant Garamond',serif;font-size:clamp(44px,12vw,82px);font-weight:600;color:#ffd4e7;min-height:1.1em}
+.cursor{border-right:2px solid #ffd4e7;animation:blink .7s infinite}@keyframes blink{50%{border-color:transparent}}
+.btn{border:1px solid rgba(255,205,225,.35);background:linear-gradient(135deg,#b74c80,#7f315e);color:white;border-radius:999px;padding:14px 25px;font-weight:700;cursor:pointer;box-shadow:0 12px 35px rgba(183,76,128,.25);font-family:inherit}
+.music{position:fixed;right:16px;top:16px;z-index:30;border:1px solid #ffffff35;background:#ffffff14;color:white;border-radius:999px;padding:10px 14px;backdrop-filter:blur(10px);cursor:pointer}
+main{max-width:980px;margin:auto;padding:24px}.hero{min-height:100vh;display:grid;place-items:center;text-align:center}.hero-card{padding:30px}
+h1,h2{font-family:'Cormorant Garamond',serif;font-weight:600}h1{font-size:clamp(60px,15vw,130px);line-height:.8;margin:15px 0;color:#ffe1ed;text-shadow:0 0 40px #d55b95}.subtitle{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:#d9b3c6}
+section{padding:90px 0}.glass{background:#ffffff0b;border:1px solid #ffffff1b;border-radius:32px;padding:35px 24px;backdrop-filter:blur(14px);box-shadow:0 30px 80px #0006}
+.message{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,4vw,30px);line-height:1.55;text-align:center;color:#ffe7f0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;height:390px;object-fit:cover;border-radius:22px;border:1px solid #fff2;box-shadow:0 18px 45px #0008;transition:.5s}.gallery img:hover{transform:translateY(-5px) scale(1.01)}
+.kicker{text-align:center;color:#d99ab8;letter-spacing:3px;text-transform:uppercase;font-size:11px}.center{text-align:center}
+.reasons{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.reason{padding:22px;border:1px solid #fff2;border-radius:20px;background:#ffffff08}.reason b{display:block;font-family:'Cormorant Garamond';font-size:25px;color:#ffd3e4;margin-bottom:7px}
+.gift-area{text-align:center;min-height:480px;display:grid;place-items:center}.gift{position:relative;width:150px;height:125px;margin:20px auto;cursor:pointer;filter:drop-shadow(0 20px 25px #0008);transition:.3s}.gift:hover{transform:scale(1.04)}.box{position:absolute;bottom:0;left:5px;width:140px;height:95px;border-radius:6px;background:linear-gradient(135deg,#c34f82,#7f2b59)}.lid{position:absolute;top:20px;left:0;width:150px;height:32px;border-radius:7px;background:linear-gradient(135deg,#e16b9b,#9d376b);z-index:2}.ribbonV{position:absolute;left:61px;top:20px;width:28px;height:105px;background:#ffd0df;z-index:3}.ribbonH{position:absolute;left:0;top:20px;width:150px;height:14px;background:#ffd0df;z-index:4}.bow{position:absolute;top:0;left:45px;width:60px;height:35px;z-index:5}.bow:before,.bow:after{content:'';position:absolute;width:35px;height:23px;border:8px solid #ffd0df;border-radius:50% 50% 45% 45%;top:0}.bow:before{left:-10px;transform:rotate(25deg)}.bow:after{right:-10px;transform:rotate(-25deg)}
+.gift.open .lid{animation:lid 1s forwards}@keyframes lid{to{transform:translateY(-80px) rotate(-7deg);opacity:.9}}.gift.open{animation:pop .7s}@keyframes pop{50%{transform:scale(1.1)}}
+#surprise{display:none;margin-top:30px}.surprise-text{font-family:'Cormorant Garamond';font-size:clamp(34px,8vw,65px);color:#ffd6e6;line-height:1.05}.spark{position:fixed;pointer-events:none;z-index:60;font-size:22px;animation:spark 1.4s ease-out forwards}@keyframes spark{to{transform:translate(var(--x),var(--y)) rotate(240deg);opacity:0}}
+.reveal{opacity:0;transform:translateY(25px);transition:.9s}.reveal.show{opacity:1;transform:none}
+@media(max-width:650px){main{padding:15px}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:300px}.reasons{grid-template-columns:1fr}.glass{padding:28px 18px}}
+</style>
+</head>
+<body class="lock">
+<div class="bg"></div><div id="stars"></div>
+
+<div id="intro">
+ <div class="intro-inner">
+  <div class="eyebrow">A tiny secret made for Srishti</div>
+  <div id="count">3</div>
+  <div id="countLabel">something special is waiting…</div>
+  <div class="type"><span id="typed"></span><span class="cursor">&nbsp;</span></div>
+  <p style="color:#d8bac8;line-height:1.7">Tap below when you're ready for your birthday surprise.</p>
+  <button class="btn" id="enter">Open my surprise ♡</button>
+ </div>
+</div>
+
+<button class="music" id="music">♫ Music: OFF</button>
+
+<main>
+<section class="hero reveal">
+ <div>
+  <div class="subtitle">7 September · Her special day</div>
+  <h1>Srishti</h1>
+  <p class="type" style="font-size:clamp(38px,8vw,65px)">Jaanuuu ❤️</p>
+  <p style="color:#d5b8c7">This little corner of the internet is only for you.</p>
+  <a class="btn" href="#letter" style="display:inline-block;text-decoration:none;margin-top:15px">Read your letter ↓</a>
+ </div>
+</section>
+
+<section id="letter" class="reveal">
+ <div class="glass">
+  <div class="kicker">Happy Birthday, Jaanuuu</div>
+  <h2 style="font-size:clamp(40px,8vw,70px);text-align:center;margin:12px 0">For Srishti, with all my heart ♡</h2>
+  <p class="message">
+   Srishti, aaj ka din mere liye bhi bahut special hai, kyunki aaj woh insaan
+   duniya mein aaya jiski smile mere favourite moments ka hissa ban gayi hai. 💗
+   <br><br>
+   Tumhare saath bitaye hue chhote-chhote moments bhi mere liye memories ban jaate hain.
+   Main bas dil se chahta hoon ki tum hamesha khush raho, apne dreams ko poora karo,
+   aur tumhari smile kabhi kam na ho.
+   <br><br>
+   <b>Happy Birthday meri Jaanuuu. 🎂💗</b>
+  </p>
+ </div>
+</section>
+
+<section class="reveal">
+ <div class="kicker">Our little memories</div>
+ <h2 style="font-size:55px;text-align:center;margin:8px 0 28px">Us. ♡</h2>
+ <div class="gallery">
+  <img src="photos/photo1.jpg"><img src="photos/photo2.jpg"><img src="photos/photo3.jpg">
+  <img src="photos/photo4.jpg"><img src="photos/photo5.jpg"><img src="photos/photo6.jpg">
+ </div>
+</section>
+
+<section class="reveal">
+ <div class="glass">
+  <div class="kicker">Just a few reasons</div>
+  <h2 style="font-size:55px;text-align:center;margin:8px 0 28px">Why you're special ✨</h2>
+  <div class="reasons">
+   <div class="reason"><b>That smile 💗</b>It has a way of making an ordinary moment feel special.</div>
+   <div class="reason"><b>Your little things 🌷</b>It's the tiny details about you that make you, you.</div>
+   <div class="reason"><b>Our memories ✨</b>Some moments are simple, but somehow stay with us.</div>
+   <div class="reason"><b>Simply you 🎀</b>No big reason needed. You being you is enough.</div>
+  </div>
+ </div>
+</section>
+
+<section class="reveal">
+ <div class="glass gift-area">
+  <div>
+   <div class="kicker">One last surprise</div>
+   <h2 style="font-size:48px;margin:10px 0">There's a gift waiting…</h2>
+   <p style="color:#d7bdca">Tap the box, Jaanuuu 🎁</p>
+   <div class="gift" id="gift">
+    <div class="bow"></div><div class="lid"></div><div class="ribbonH"></div><div class="ribbonV"></div><div class="box"></div>
+   </div>
+   <div id="surprise">
+    <div class="surprise-text">Happy Birthday,<br>meri Jaanuuu ❤️</div>
+    <p style="font-family:'Cormorant Garamond';font-size:25px;color:#e6c6d4">May this new year of your life bring you countless reasons to smile.</p>
+    <p style="font-size:28px">🎂 ✨ 💗 🌷 ✨ 💗</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="reveal center" style="padding-bottom:120px">
+ <div class="kicker">End of the little surprise</div>
+ <h2 style="font-size:55px;margin:10px">Keep smiling, Srishti. ♡</h2>
+ <p style="color:#cdb0bf">Made specially for you — 7 September.</p>
+</section>
+</main>
+
+<script>
+const stars=document.getElementById('stars');
+for(let i=0;i<90;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*3+'s';stars.appendChild(s)}
+const typed=document.getElementById('typed'), words=['Jaanuuu ❤️','my favourite person ♡','your special day ✨'];
+let wi=0,ci=0,del=false;
+function type(){let w=words[wi];typed.textContent=del?w.slice(0,ci--):w.slice(0,ci++);if(!del&&ci>w.length){del=true;setTimeout(type,900);return}if(del&&ci<0){del=false;wi=(wi+1)%words.length;ci=0}setTimeout(type,del?55:95)}type();
+
+let n=3;const count=document.getElementById('count');
+const timer=setInterval(()=>{n--;count.textContent=n>0?n:'♡';if(n<=0)clearInterval(timer)},1000);
+
+document.getElementById('enter').onclick=()=>{document.getElementById('intro').classList.add('hide');document.body.classList.remove('lock');startMusic();window.scrollTo(0,0);};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+
+function confetti(){
+ const icons=['💗','💕','✨','🌷','♡','🎉','⭐'];
+ for(let i=0;i<45;i++){let s=document.createElement('span');s.className='spark';s.textContent=icons[i%icons.length];s.style.left='50%';s.style.top='55%';s.style.setProperty('--x',(Math.random()*1000-500)+'px');s.style.setProperty('--y',(Math.random()*800-400)+'px');document.body.appendChild(s);setTimeout(()=>s.remove(),1500)}
+}
+document.getElementById('gift').onclick=()=>{let g=document.getElementById('gift');if(g.classList.contains('open'))return;g.classList.add('open');setTimeout(()=>document.getElementById('surprise').style.display='block',500);confetti();};
+setInterval(()=>{if(document.visibilityState==='visible'){let h=document.createElement('span');h.className='heart';h.textContent=['♡','💗','💕'][Math.floor(Math.random()*3)];h.style.left=Math.random()*100+'%';document.body.appendChild(h);setTimeout(()=>h.remove(),7000)}},900);
+
+// Gentle original WebAudio melody; no external music file required.
+let ctx,master,playing=false;
+function startMusic(){
+ if(playing)return; playing=true;
+ try{ctx=new (window.AudioContext||window.webkitAudioContext)();master=ctx.createGain();master.gain.value=.045;master.connect(ctx.destination);playNote(261.63,0);playNote(329.63,.45);playNote(392,.9);playNote(329.63,1.35);setInterval(()=>{if(playing){playNote(293.66,0);playNote(349.23,.45);playNote(440,.9);playNote(349.23,1.35)}},1800)}catch(e){}
+}
+function playNote(freq,delay){if(!ctx)return;let o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=freq;o.connect(g);g.connect(master);let t=ctx.currentTime+delay;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.8,t+.08);g.gain.exponentialRampToValueAtTime(.001,t+.8);o.start(t);o.stop(t+.85)}
+document.getElementById('music').onclick=()=>{if(!ctx){startMusic();return}playing=!playing;master.gain.value=playing?.045:0;document.getElementById('music').textContent=playing?'♫ Music: ON':'♫ Music: OFF'};
+</script>
+</body>
+</html>
